@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def pivotInteger(self, n: int) -> int:
 
