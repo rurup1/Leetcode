@@ -1,4 +1,5 @@
 from typing import List
+import math
 
 class Solution:
     def firstStableIndex(self, nums: list[int], k: int) -> int:
@@ -14,7 +15,7 @@ class Solution:
             x = max(num, x)
             largest.append(x)
 
-        y = inf
+        y = math.inf
         res = -1
         for j in range(len(nums) - 1, -1 , -1):
             y = min(y, nums[j])
