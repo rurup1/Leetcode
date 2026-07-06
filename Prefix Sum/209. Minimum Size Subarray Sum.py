@@ -24,4 +24,4 @@ class Solution:
                 i += 1
             j += 1
         
-        return res if res != inf else 0
+        return res if res != math.inf else 0
