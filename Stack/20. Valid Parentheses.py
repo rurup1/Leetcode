@@ -2,7 +2,7 @@ class Solution:
     def isValid(self, s: str) -> bool:
         # Loop through s:
         #   if opening bracket: add to stack
-        #   if closing brakcet: check if stack.pop() is the correspondent
+        #   if closing bracket: check if stack.pop() is the correspondent
 
         stack = []
         for item in s:
