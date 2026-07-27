@@ -1,9 +1,10 @@
-from typing import List
+from typing import 
+import math
 
 class Solution:
     def find132pattern(self, nums: List[int]) -> bool:
         stack = []
-        second_max = -inf
+        second_max = -math.inf
 
         for i in range(len(nums) - 1, -1, -1):
             num = nums[i]
